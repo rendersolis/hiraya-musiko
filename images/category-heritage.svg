@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+  <title id="title">Hiraya Heritage instrument</title>
+  <desc id="desc">Warm-toned heritage instrument study in a premium studio composition.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#221c17"/>
+      <stop offset="100%" stop-color="#120f0d"/>
+    </linearGradient>
+    <linearGradient id="wood2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#a87c49"/>
+      <stop offset="100%" stop-color="#56381e"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="700" fill="url(#bg2)"/>
+  <circle cx="230" cy="150" r="120" fill="#d39b57" opacity="0.12"/>
+  <g transform="translate(100 70)">
+    <g transform="rotate(10 340 290)">
+      <path d="M145 398L325 140L425 150L505 398C470 470 381 536 280 540C210 542 171 502 145 398Z" fill="url(#wood2)"/>
+      <path d="M232 326L340 142L436 152L500 318" fill="none" stroke="#f3e2be" stroke-width="8" opacity="0.7"/>
+      <path d="M261 182L292 542" stroke="#f2d29e" stroke-width="12" stroke-linecap="round"/>
+      <circle cx="292" cy="145" r="34" fill="#171717" stroke="#d8a653" stroke-width="5"/>
+      <circle cx="292" cy="145" r="11" fill="#d8a653"/>
+      <path d="M382 198L510 274" stroke="#d3ad6a" stroke-width="10" stroke-linecap="round"/>
+      <path d="M380 342L545 362" stroke="#d3ad6a" stroke-width="10" stroke-linecap="round"/>
+      <path d="M390 424L550 446" stroke="#d3ad6a" stroke-width="9" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

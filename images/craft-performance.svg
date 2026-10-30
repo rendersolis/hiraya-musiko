@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Performance stage</title>
+  <desc id="desc">Illustrated stage scene showing a musician and guitar in motion.</desc>
+  <defs>
+    <linearGradient id="stagebg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#141414"/>
+      <stop offset="100%" stop-color="#221a15"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#stagebg)"/>
+  <circle cx="260" cy="160" r="130" fill="#d8a653" opacity="0.10"/>
+  <circle cx="990" cy="120" r="170" fill="#d8a653" opacity="0.08"/>
+  <path d="M0 560H1200V700H0Z" fill="#181716"/>
+  <g transform="translate(130 100)">
+    <path d="M260 320L420 220L560 230L620 410L390 502L250 470Z" fill="#d4a15d" opacity="0.8"/>
+    <path d="M328 206L394 418" stroke="#f5dfb1" stroke-width="11" stroke-linecap="round"/>
+    <path d="M454 228L518 418" stroke="#f5dfb1" stroke-width="9" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="392" cy="182" r="32" fill="#111" stroke="#d8a653" stroke-width="5"/>
+    <circle cx="392" cy="182" r="11" fill="#d8a653"/>
+    <path d="M610 200L760 152" stroke="#d8a653" stroke-width="10" stroke-linecap="round"/>
+    <path d="M610 250L760 230" stroke="#d8a653" stroke-width="7" stroke-linecap="round"/>
+    <path d="M610 310L760 292" stroke="#d8a653" stroke-width="7" stroke-linecap="round"/>
+    <g transform="translate(660 220)">
+      <circle cx="0" cy="0" r="86" fill="#1c1a18" stroke="#d8a653" stroke-width="3"/>
+      <path d="M-24 58C18 -18 60 -44 102 -18L72 54Z" fill="#d8a653" opacity="0.65"/>
+    </g>
+  </g>
+</svg>

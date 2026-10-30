@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+  <title id="title">Hiraya Bass instrument</title>
+  <desc id="desc">Premium bass illustration with a bronze and black palette.</desc>
+  <defs>
+    <linearGradient id="bg4" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#141414"/>
+      <stop offset="100%" stop-color="#1a150f"/>
+    </linearGradient>
+    <linearGradient id="bassbody" x1="0" x2="1">
+      <stop offset="0%" stop-color="#b27c40"/>
+      <stop offset="100%" stop-color="#2a1d13"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="700" fill="url(#bg4)"/>
+  <circle cx="250" cy="160" r="120" fill="#d8a653" opacity="0.13"/>
+  <g transform="translate(112 60)">
+    <g transform="rotate(12 330 300)">
+      <path d="M148 378L326 168L468 170L548 366C516 468 444 534 326 548C214 528 168 472 148 378Z" fill="url(#bassbody)"/>
+      <path d="M220 330L322 178L454 180L510 325" fill="none" stroke="#f2e2bf" stroke-width="9" opacity="0.8"/>
+      <path d="M292 170L320 544" stroke="#f0d4a3" stroke-width="12" stroke-linecap="round"/>
+      <path d="M360 170L390 540" stroke="#f0d4a3" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+      <circle cx="320" cy="150" r="38" fill="#111" stroke="#d8a653" stroke-width="5"/>
+      <circle cx="320" cy="150" r="12" fill="#d8a653"/>
+      <path d="M464 246L610 280" stroke="#d8a653" stroke-width="10" stroke-linecap="round"/>
+      <circle cx="620" cy="284" r="25" fill="#d8a653" opacity="0.9"/>
+      <path d="M494 374L620 398" stroke="#d8a653" stroke-width="10" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

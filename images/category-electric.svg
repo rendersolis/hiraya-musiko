@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+  <title id="title">Hiraya Electric guitar</title>
+  <desc id="desc">Modern electric guitar artwork with gold and charcoal styling.</desc>
+  <defs>
+    <linearGradient id="bg3" x1="0" x2="1">
+      <stop offset="0%" stop-color="#101010"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="body3" x1="0" x2="1">
+      <stop offset="0%" stop-color="#232323"/>
+      <stop offset="100%" stop-color="#111111"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="700" fill="url(#bg3)"/>
+  <circle cx="680" cy="120" r="140" fill="#d8a653" opacity="0.14"/>
+  <g transform="translate(110 65)">
+    <g transform="rotate(-18 305 290)">
+      <path d="M180 350C236 250 314 182 430 188C510 192 567 236 610 308L630 426C612 470 544 520 456 548L236 548C160 522 92 468 70 416L180 350Z" fill="url(#body3)"/>
+      <path d="M230 310L286 170L430 170L516 320" fill="none" stroke="#f2d9aa" stroke-width="8" opacity="0.7"/>
+      <path d="M292 168L354 548" stroke="#d8a653" stroke-width="10" stroke-linecap="round"/>
+      <path d="M350 170L410 548" stroke="#d8a653" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+      <circle cx="293" cy="142" r="32" fill="#0a0a0a" stroke="#d8a653" stroke-width="5"/>
+      <circle cx="293" cy="142" r="12" fill="#d8a653"/>
+      <path d="M238 236L188 270" stroke="#d8a653" stroke-width="8" stroke-linecap="round"/>
+      <path d="M448 238L545 278" stroke="#d8a653" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="560" cy="284" r="20" fill="#d8a653" opacity="0.85"/>
+      <path d="M502 332H630" stroke="#d8a653" stroke-width="7" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

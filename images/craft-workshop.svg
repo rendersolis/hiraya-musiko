@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Workshop craft scene</title>
+  <desc id="desc">Illustrated workshop environment for instrument craftsmanship.</desc>
+  <defs>
+    <linearGradient id="workbg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0d0d0d"/>
+      <stop offset="100%" stop-color="#2a1e15"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#workbg)"/>
+  <rect x="0" y="470" width="1200" height="230" fill="#1c1a17"/>
+  <path d="M120 480L330 380L470 520L700 330L930 500L1100 470L1100 700L120 700Z" fill="#57442d" opacity="0.6"/>
+  <g transform="translate(270 160)">
+    <rect x="0" y="160" width="340" height="190" rx="12" fill="#1b1b1b" stroke="#d9a65c" stroke-width="4"/>
+    <path d="M78 180L194 60L330 180" fill="#4d3926"/>
+    <path d="M80 180L200 210L322 175" fill="#d8a653" opacity="0.5"/>
+    <circle cx="220" cy="200" r="48" fill="#d8a653" opacity="0.28"/>
+  </g>
+  <g transform="translate(710 210)">
+    <path d="M110 110C188 70 246 70 305 122L346 220L285 286L186 286L91 236Z" fill="#8b6439"/>
+    <path d="M150 152L250 132L280 210L170 238Z" fill="#c49b5b" opacity="0.7"/>
+    <circle cx="222" cy="128" r="26" fill="#1a1a1a" stroke="#d8a653" stroke-width="4"/>
+  </g>
+</svg>

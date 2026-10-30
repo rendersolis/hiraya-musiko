@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Craft detail</title>
+  <desc id="desc">Premium close-up of crafted instrument detail with warm materials.</desc>
+  <defs>
+    <linearGradient id="detailbg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#191612"/>
+      <stop offset="100%" stop-color="#302721"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#detailbg)"/>
+  <circle cx="860" cy="180" r="140" fill="#d8a653" opacity="0.12"/>
+  <g transform="translate(200 120)">
+    <path d="M150 350C220 250 300 160 462 160C560 160 650 210 704 286L728 420L540 480L272 500L76 450Z" fill="#8a6039"/>
+    <path d="M180 350L314 188L470 188L620 330" fill="none" stroke="#f0d9a3" stroke-width="7" opacity="0.8"/>
+    <path d="M224 158L300 504" stroke="#f0d9a3" stroke-width="12" stroke-linecap="round"/>
+    <path d="M370 168L442 495" stroke="#f0d9a3" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="295" cy="132" r="32" fill="#121212" stroke="#d8a653" stroke-width="5"/>
+    <circle cx="295" cy="132" r="14" fill="#d8a653"/>
+    <path d="M208 246L126 332" stroke="#d8a653" stroke-width="10" stroke-linecap="round"/>
+    <path d="M492 250L624 338" stroke="#d8a653" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>

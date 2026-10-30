@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <title>Contact Us | Hiraya Instruments</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="Hiraya Musiko home">
+          <img src="./images/hiraya-musiko-logo.png" alt="Hiraya Musiko Logo">
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+<a href="index.html" class="nav-link">HOME</a>
+<a href="about.html" class="nav-link">ABOUT US</a>
+<a href="products.html" class="nav-link">PRODUCTS</a>
+
+<a href="reviews.html" class="nav-link">REVIEWS</a>
+<a href="faq.html" class="nav-link">FAQ</a>
+<a href="contact.html" class="nav-link active" aria-current="page">CONTACT US</a>
+<a href="account.html" class="nav-link header-icon-link" aria-label="Account" title="Account"><svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M4.8 20c.7-3.8 3.2-5.7 7.2-5.7s6.5 1.9 7.2 5.7"/></svg></a>
+<a href="wishlist.html" class="nav-link header-icon-link" aria-label="Wishlist" title="Wishlist"><span class="icon-wrap"><svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 8.8c0 5.1-8.8 10.3-8.8 10.3S3.2 13.9 3.2 8.8a4.5 4.5 0 0 1 8.8-1.3 4.5 4.5 0 0 1 8.8 1.3Z"/></svg></span><span class="header-badge" data-wishlist-count hidden></span></a>
+<a href="cart.html" class="nav-link header-icon-link" aria-label="Shopping Cart" title="Shopping Cart"><span class="icon-wrap"><svg class="header-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 11.1a2 2 0 0 0 2 1.6h8.9a2 2 0 0 0 1.9-1.5L22 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg></span><span class="header-badge" data-cart-count hidden></span></a>
+<a href="signup.html" class="nav-link nav-button">SIGN UP</a>
+<a href="login.html" class="nav-link nav-button nav-button-alt">LOGIN</a>
+</nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Get in Touch</p>
+          <h1>Contact Us</h1>
+          <p>
+            Let us help you find the right instrument, accessory, or custom recommendation.
+          </p>
+        </div>
+      </section>
+
+      <section class="info-panel">
+        <div class="container contact-grid">
+          <div class="contact-box">
+            <p class="section-tag">Contact Form</p>
+            <h2>Send us a message</h2>
+            <form class="contact-form">
+              <label>
+                Full Name
+                <input type="text" name="name" placeholder="Your name" />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" placeholder="you@example.com" />
+              </label>
+              <label>
+                Subject
+                <input type="text" name="subject" placeholder="What do you need?" />
+              </label>
+              <label>
+                Message
+                <textarea name="message" placeholder="Write your message here..."></textarea>
+              </label>
+              <button type="submit" class="btn main-button">Send Message</button>
+            </form>
+          </div>
+
+          <div class="contact-box" data-guest-only>
+            <p class="section-tag">Reach Us</p>
+            <h2>We are happy to help</h2>
+            <ul class="contact-list">
+              <li>Phone: +63 912 000 0000 (placeholder)</li>
+              <li>Email: hello@hiraya-instruments.com</li>
+              <li><strong>Business:</strong> Hiraya Musiko Showroom &amp; Studio</li>
+              <li><strong>Type:</strong> Filipino-made musical instrument showroom and studio</li>
+              <li><strong>Address:</strong> Ground Floor, Hiraya Musiko Building, 18 Maginhawa Street, Teachers Village East, Quezon City, Metro Manila, Philippines</li>
+              <li class="contact-fiction-note">Fictional address for a school project. This is not a verified real business location.</li>
+              <li>Hours: Monday to Saturday</li>
+              <li>Custom Orders: available upon request</li>
+            </ul>
+            <a href="signup.html" class="btn btn-light main-button">Sign Up</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-map-section" aria-labelledby="contact-map-title">
+        <div class="container">
+          <div class="contact-map-heading">
+            <div>
+              <p class="section-tag">Find the area</p>
+              <h2 id="contact-map-title">Hiraya Musiko Showroom &amp; Studio</h2>
+              <p>The business marker is approximate and represents the Maginhawa Street area, not a verified building coordinate.</p>
+            </div>
+            <div class="contact-map-actions">
+              <button type="button" class="main-button" id="locate-visitor">Use My Current Location</button>
+              <p id="location-status" class="location-status" role="status" aria-live="polite">Visitor location is only requested when you select the button.</p>
+            </div>
+          </div>
+          <div id="contact-map" class="contact-map" role="application" aria-label="Interactive map showing the approximate fictional Hiraya Musiko business area"></div>
+          <p id="distance-result" class="contact-map-distance" role="status" aria-live="polite" hidden></p>
+          <p class="contact-map-disclosure">The listed address is fictional and provided for a school project. The area marker is approximate. The site does not store or send your coordinates to its own server. If you choose to use your current location, the OSRM routing server receives your coordinates to calculate the route and logs route requests. OpenStreetMap France receives map-tile requests for the area currently shown.</p>
+        </div>
+      </section>
+
+      <section class="feature-panel">
+        <div class="container feature-grid">
+          <div class="feature-item">
+            <p class="section-tag">Support</p>
+            <h3>Need help choosing?</h3>
+            <p>Ask us about tone, body style, finish, comfort, and the best model for your playing needs.</p>
+          </div>
+          <div class="feature-item">
+            <p class="section-tag">Orders</p>
+            <h3>Questions about payment?</h3>
+            <p>We can guide you through product selection, order arrangements, and shipping details.</p>
+          </div>
+          <div class="feature-item">
+            <p class="section-tag">After Sales</p>
+            <h3>Need assistance later?</h3>
+            <p>Our team can help with product support, warranty questions, and care recommendations.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Hiraya Instruments</h3>
+          <p><a href="index.html">Home</a></p>
+          <p><a href="about.html">About Us</a></p>
+          <p><a href="products.html">Products</a></p>
+          <p><a href="contact.html">Contact Us</a></p>
+          <p><a href="signup.html">Sign Up</a></p>
+          <p><a href="login.html">Login</a></p>
+        </div>
+
+        <div>
+          <h3>Policies</h3>
+          <p>Privacy Policy</p>
+          <p>Return Policy</p>
+          <p>Warranty</p>
+        </div>
+
+        <div>
+          <h3>Quick Links</h3>
+          <p><a href="products.html">Featured Models</a></p>
+          <p><a href="about.html">Our Story</a></p>
+          <p><a href="signup.html">Join Us</a></p>
+        </div>
+      </div>
+    </footer>
+    
+      <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+      <script defer src="contact-map.js"></script>
+      <script src="script.js" defer></script>
+  </body>
+</html>

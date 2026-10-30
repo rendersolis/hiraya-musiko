@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Hiraya Musiko placeholder</title>
+  <desc id="desc">A clean placeholder illustration for Hiraya product images.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f0f0f"/>
+      <stop offset="100%" stop-color="#1d1c1a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#dcb96d"/>
+      <stop offset="100%" stop-color="#a88235"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="90" y="90" width="620" height="420" rx="18" fill="#111111" stroke="url(#gold)" stroke-width="4"/>
+  <path d="M210 365c40-112 100-180 190-180 90 0 155 68 195 180" fill="none" stroke="url(#gold)" stroke-width="22" stroke-linecap="round"/>
+  <path d="M285 200l60 195 60-195" fill="none" stroke="#f7f2ea" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M255 360h290" stroke="#f7f2ea" stroke-width="10" stroke-linecap="round"/>
+  <text x="400" y="505" text-anchor="middle" fill="#f7f2ea" font-size="36" font-family="Arial, Helvetica, sans-serif" letter-spacing="5">HIRAYA MUSIKO</text>
+</svg>
